@@ -1,0 +1,52 @@
+Typescript vs JavaScript : 
+
+JavaScript lacks a type system. Meaning, variables can change form (one type to other), 
+TS strictly restricts this form changes making them illegal.
+TS -> Static Typing, JS -> Dynamic Typing
+TS -> can run JS, JS -> can't run TS (BACKWARD COMPATIBILITY)
+
+
+Why TS When We have JS ? 
+
+JS is for simpler projects and is for faster development cases, 
+TS added robustness to server side dev (enterprise level) (Basically JAVAization of JS)
+TS -> transpiled into JS for browser interpretation (browsers can read and display the code)
+Versatility (identified by any browser and adaptable to any env.)
+Almost every JS Library is supported in TS too.
+
+
+JSX Vs TSX 
+
+.js -> High level, Interpreted, client side (primarily), dynamic web pages...
+.ts -> superset of JS, Static typed, enhances dev experience
+.jsx -> HTML Like code within JS 
+.tsx -> HTML Like Code in TS (XML Like Syntax)
+
+TS : Only for type checking...
+More code than standard js file (static typing)
+
+
+Types in TS : 
+
+string -> text data
+number -> int, float data
+boolean -> true/ false
+bigInt -> greater than 2^53 - 1
+symbol -> unique identifiers
+undefined -> uninit. variable
+null -> absence of a value
+
+Complex Types : 
+
+Array, Tuple, 
+
+Special Types : 
+
+any -> disables type checking for a variable
+
+unknown -> similar to any , but safer as it requires type checking before use.
+
+void -> functions that return nothing.
+
+never -> represents values that never occur 
+
